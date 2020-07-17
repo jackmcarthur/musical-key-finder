@@ -86,4 +86,4 @@ unebarque_e_min.print_key()
 likely key: D major, correlation: 0.602
 also possible: E minor, correlation: 0.59
 ```
-Other sound clips can also be analyzed, and two more examples are given in the Jupyter notebook in this repository. The Tonal_Fragment class is also saved in the file [keyfinder.py](keyfinder.py). Analysis of .mp3 files does require FFMpeg to be installed, but .wav and other files can be analyzed by Librosa without it. Analyses are most accurate if the harmonic part of the sample is separated from the percussive part, and if a reasonable length of sound (10 seconds or more) is used.
+Other sound clips can also be analyzed, and two more examples are given in the Jupyter notebook [musicalkeyfinder.ipynb](musicalkeyfinder.ipynb) in this repository. The Tonal_Fragment class is also saved in the file [keyfinder.py](keyfinder.py). Analysis of .mp3 files does require FFMpeg to be installed, but .wav and other files can be analyzed by Librosa without it. Analyses are most accurate if the harmonic part of the sample is separated from the percussive part, and if a reasonable length of sound (10 seconds or more) is used.
