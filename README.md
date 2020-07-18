@@ -44,7 +44,7 @@ unebarque_fsharp_maj.print_key()
 ```
 >> likely key: F# minor, correlation: 0.762
 ```
-The key of the song is determined with the Krumhansl-Schmuckler key-finding algorithm, which  correlates the prominence of each pitch class in a sample with typical profiles of a major key and a minor key, and returns the key with the highest correlation coefficient. In this case, the returned key of F# minor is correct, even though F# is not the most prominent pitch in this sample. Many algorithms make the assumption that the most prominent pitch in the sample is the "tonic," or the root of the key, but this algorithm is stronger as it does not make this assumption.
+The key of the song is determined with the Krumhansl-Schmuckler key-finding algorithm, which  correlates the prominence of each pitch class in a sample with typical profiles of a major key and a minor key, and returns the key with the highest correlation coefficient. In this case, the returned key of F# minor is correct, even though F# is not the most prominent pitch in this sample. Many algorithms make the assumption that the most prominent pitch in the sample is the "tonic," or the root of the key; a strength of this algorithm is that it does not make this assumption.
 The correlation coefficients of the chroma data can also be printed:
 ```python
 unebarque_fsharp_min.corr_table()
